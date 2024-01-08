@@ -1,18 +1,19 @@
 *{
    margin: 0;
    padding: 0;
-   font-family: Merriweather;
 }
 
 /* header */
 #header{
-    background-image: url('./resources/Banner\ Image.png');
+    background-image: url('./resources/Banner\ Image.png') ;
     background-position: center;
     background-size: cover;
     width: 80%;
     height: 500px;
     margin: 50px 140px;
     border-radius: 16px;
+    background-color: rgb(180, 168, 168);
+    background-blend-mode: multiply;
 }
 .container .hero{
     margin-top: 50px;
@@ -21,7 +22,7 @@
 .hero{
     padding: 130px;
     margin: 130px 0px;
-    color: red;
+    color: #FFFFFF;
 }
 
 .hero-sub-title{
@@ -68,11 +69,10 @@
 
 /* main div banner */
 .bnr-container{
-    background-image: url('./resources/Vectorrr.png');
+    background-image: linear-gradient(to left, rgb(10, 10, 10), rgb(156, 137, 137)),url('./resources/Vectorrr.png') ;
     background-position: center;
     background-size: cover;
     width: 80%;
-    height: 500px;
     margin: 120px 140px;
     border-radius: 16px;
 }
@@ -121,10 +121,6 @@
     padding: 120px 140px;
 }
 
-.portfolio{
-    
-}
-
 .portfolio-sub-title{
     font-size: 24px;
     font-weight: 500;
@@ -146,12 +142,70 @@
     margin-bottom: 48px;
 }
 
-.portfolio-item {
+.portfolio-item .item-picture {
     /* margin-right: 140px; */
+    width: 100%;
 }
 
-.it{
-    width: 300px;
-    height: 400;
-    gap: 54px;
+.images{
+    width: 33%;
+    gap: 24px;
+}
+
+/* main section subsciption */
+.subscription{
+    background-color: #FF00000D;
+    margin: 120px 140px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#email{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 100px;
+}
+
+.subscription-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    padding-bottom: 20px;
+}
+
+.subscription-description{
+    color: #07021199;
+    font-size: 20px;
+    padding: 10px 200px 48px;
+}
+
+.input{
+    padding-bottom: 80px;
+}
+
+
+
+#text{
+    padding: 20px 255px 20px 30px;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    color: #0702114D;
+    gap: 0;
+}
+
+.submit{
+    padding:20px 45px;
+    background-color: #FF0000;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* footer */
+footer{
+    background-color: #070211;
+    color: white;
 }
