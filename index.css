@@ -70,7 +70,7 @@
 
 /* main div banner */
 .bnr-container{
-    background-image: url('./resources/Vectorrr.png');
+    background-image: linear-gradient(to right,#070211, #07021100), url('./resources/Vectorrr.png');
     background-position: center;
     background-size: cover;
     width: 80%;
@@ -114,7 +114,7 @@
 }
 
 .profile{
-    padding: 68px 138px;
+    padding: 68px 1px;
 }
 
 /*  main section Portfolio */
