@@ -130,12 +130,11 @@
 }
 
 .time-description{
-    padding: 100px 280px 30px;
+    padding: 100px 250px 30px;
     font-size: 32px;
     font-weight: 600;
     color: #070211;
     line-height: 56px;
-    width: 549px;
 }
 
 span{
@@ -149,6 +148,71 @@ span{
     border: none;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* main div parent */
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 120px 140px;
+}
+
+.parent-title{
+    text-align: left;
+}
+
+#title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+#sub-title{
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 22px;
+}
+
+#parent-title-description{
+    font-size: 20px;
+    width: 393px;
+    color: #07021199;
+    padding-top: 22px;
+}
+
+#image{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+}
+
+.description{
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 60px;
+}
+
+.year{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: inter;
+    color: #FF0000;
+}
+
+#description{
+    font-size: 20px;
+    color: #07021199;
+    padding-top: 12px;
+}
+
+.img-group{
+    width: 140px;
+    height: 140px;
+    padding-top: 12px;
 }
 
 /*  main section Portfolio */
@@ -176,7 +240,7 @@ span{
     font-weight: 400;
     color: #07021199;
     margin-bottom: 48px;
-    width: 70%;
+    width: 800px;
 }
 
 .images{
@@ -217,6 +281,7 @@ span{
     color: #07021199;
     font-size: 20px;
     padding: 10px 200px 48px;
+    width: 800px;
 }
 
 .input{
@@ -262,7 +327,7 @@ footer{
 
 .address-description{
     padding: 120px 140px 40px;
-    width: 250px;
+    width: 300px;
     height: 80px;
 }
 
