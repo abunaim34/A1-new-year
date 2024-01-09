@@ -43,7 +43,6 @@
 .resume-container{
     text-align: center;
     margin-top: 120px;
-    font-family: inter;
 }
 
 .resume-title{
@@ -135,6 +134,7 @@
     font-weight: 600;
     color: #070211;
     line-height: 56px;
+    font-family: inter;
 }
 
 span{
@@ -329,6 +329,7 @@ footer{
     padding: 120px 140px 40px;
     width: 300px;
     height: 80px;
+    font-family: inter;
 }
 
 .address-info{
@@ -338,6 +339,7 @@ footer{
 
 .number{
     display: flex;
+    font-family: inter;
 }
 
 .address-info img{
